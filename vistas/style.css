@@ -1,20 +1,20 @@
-*{
+* {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 	font-family: 'Open Sans';
 }
 
-body{
+body {
 	background-image: url(../images/fondo-lanczos3.png);
 	background-size: cover;
 }
 
-header{
+header {
 	background: rgba(0, 0, 0, 0.302);
 }
 
-nav{
+nav {
 	max-width: 900px;
 	margin: auto;
 	background-color: #333;
@@ -23,42 +23,47 @@ nav{
 	margin-bottom: 55px;
 }
 
-.menu-horizontal{
+.menu-horizontal {
 	list-style: none;
 	display: flex;
 	justify-content: space-around;
 }
-.menu-horizontal > li > a{
+
+.menu-horizontal>li>a {
 	display: block;
 	padding: 15px 20px;
 	color: white;
 	text-decoration: none;
 }
-.menu-horizontal > li:hover{
+
+.menu-horizontal>li:hover {
 	background-color: rgb(198, 57, 57);
 }
-.menu-vertical{
+
+.menu-vertical {
 	position: absolute;
 	display: none;
 	list-style: none;
 	width: 200px;
 	background-color: rgba(137, 126, 126, 0.5);
 }
-.menu-horizontal li:hover .menu-vertical{
+
+.menu-horizontal li:hover .menu-vertical {
 	display: block;
 }
-.menu-vertical li:hover{
+
+.menu-vertical li:hover {
 	background-color: black;
 }
 
-.menu-vertical li a{
+.menu-vertical li a {
 	display: block;
 	color: white;
 	text-decoration: none;
 	padding: 15px 15px 15px 20px;
 }
 
-#html{
+#html {
 	margin: auto;
 	padding: 20px;
 	max-width: 900px;
@@ -72,73 +77,74 @@ nav{
 
 
 .outer-wrapper {
-    margin: 10px;
-    border: 1px solid rgba(0, 0, 0, 0.027);
-    border-radius: 4px;
-    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.144);
+	margin: 10px;
+	border: 1px solid rgba(0, 0, 0, 0.027);
+	border-radius: 4px;
+	box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.144);
 }
 
 .table-wrapper {
-    overflow-y: scroll;
-    margin: 15px;
-    height: 500px;
-    max-height: 500px;
+	overflow-y: scroll;
+	margin: 15px;
+	height: 500px;
+	max-height: 500px;
 }
 
 table {
-    border-collapse: separate;
-    border-spacing: 0px;
-    width: 90%;
-    height: 500px;
+	border-collapse: separate;
+	border-spacing: 0px;
+	width: 90%;
+	height: 500px;
 	margin: 0 auto;
 }
 
 
 table th {
-    position: sticky; 
-    top: 0px;
-    background-color: #34495e;
-    color: #dd5;
-    text-align: center;
-    font-weight: normal;
-    font-size: 18px;
+	position: sticky;
+	top: 0px;
+	background-color: #34495e;
+	color: #dd5;
+	text-align: center;
+	font-weight: normal;
+	font-size: 18px;
 
-    border: 1px solid #ffffff80;
-    height: 10px;
-} 
+	border: 1px solid #ffffff80;
+	height: 10px;
+}
 
-table th, table td {
-    padding: 15px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+table th,
+table td {
+	padding: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 table td {
-    text-align: left;
-    font-size: 20px;
-    border: 1px solid #ffffff80;
-    padding-left: 20px;
+	text-align: left;
+	font-size: 20px;
+	border: 1px solid #ffffff80;
+	padding-left: 20px;
 	text-decoration: none;
 	background-color: #34495e;
 }
 
-.renglon1{
+.renglon1 {
 	border-right: none;
 	padding-left: 50px;
 	color: #333;
 }
 
-.renglon1 a{
+.renglon1 a {
 	text-decoration: none;
 	color: rgb(255, 255, 255);
 }
 
-.renglon{
+.renglon {
 	text-align: right;
 	border-left: none;
 }
 
-.uno{
+.uno {
 	color: white;
 	background-color: darkcyan;
 	text-decoration: none;
@@ -147,7 +153,7 @@ table td {
 	margin-right: 10px;
 }
 
-.dos{
+.dos {
 	color: white;
 	background-color: red;
 	text-decoration: none;
@@ -155,13 +161,13 @@ table td {
 	border-radius: 5px;
 }
 
-footer{
-    text-align: center;
-    background: rgba(0, 0, 0, 0.302);
-    padding: 0px;
+footer {
+	text-align: center;
+	background: rgba(0, 0, 0, 0.302);
+	padding: 0px;
 }
 
-.copyright{
-    margin: 0px;
-    padding: 0;
+.copyright {
+	margin: 0px;
+	padding: 0;
 }
